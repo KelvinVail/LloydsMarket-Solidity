@@ -1,0 +1,66 @@
+{
+  "contract_name": "MarketEntityRegister",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "entity",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        }
+      ],
+      "name": "unregister",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "bytes32"
+        }
+      ],
+      "name": "register",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b6101778061001c6000396000f300606060405263ffffffff60e060020a60003504166316a837fb81146100375780631a0919dc14610066578063e1fa8e841461007b575bfe5b341561003f57fe5b61004a600435610090565b60408051600160a060020a039092168252519081900360200190f35b341561006e57fe5b6100796004356100ab565b005b341561008357fe5b6100796004356100f6565b005b600060208190529081526040902054600160a060020a031681565b600081815260208190526040902054600160a060020a0316158015906100d057508015155b156100f25760008181526020819052604090208054600160a060020a03191690555b5b50565b600081815260208190526040902054600160a060020a031615801561011a57508015155b156100f25760008181526020819052604090208054600160a060020a03191633600160a060020a03161790555b5b505600a165627a7a72305820716b47badae63744048d1a3c8f1fd9a803c26f913a032862dcf37ba990f0902b0029",
+  "networks": {
+    "1499711892158": {
+      "events": {},
+      "links": {},
+      "address": "0x7634cfe99f95a850aeb640c87607bb3abdcb88e4",
+      "updated_at": 1499711915047
+    },
+    "1499715131277": {
+      "events": {},
+      "links": {},
+      "address": "0x2b3333aa6cd4c26220713cd5bb0ef2313579e9ab",
+      "updated_at": 1499715144073
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1499715144073
+}
